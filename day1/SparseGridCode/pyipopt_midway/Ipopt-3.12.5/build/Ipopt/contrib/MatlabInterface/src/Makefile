@@ -13,12 +13,12 @@
 # installation. This is the directory so that in its 'bin/'
 # subdirectory you see all the matlab executables (such as 'matlab',
 # 'mex', etc.)
-MATLAB_HOME = /software/matlab-2017b-el7-x86_64
+MATLAB_HOME = 
 
 # Set the suffix for matlab mex files. The contents of the
 # $(MATLAB_HOME)/extern/examples/mex directory might be able to help
 # you in your choice.
-MEXSUFFIX   = mexa64
+MEXSUFFIX   = 
 
 # This is the command used to call the mex program. Usually, it is
 # just "mex". But it also may be something like
@@ -37,11 +37,11 @@ CXXFLAGS    = -O3 -pipe -DNDEBUG -pedantic-errors -Wparentheses -Wreturn-type -W
 LDFLAGS     = $(CXXFLAGS)  -Wl,--rpath -Wl,/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/lib  #-static-libgcc -static-libstdc++
 
 # Include directories (we use the CYGPATH_W variables to allow compilation with Windows compilers)
-INCL = `PKG_CONFIG_PATH=/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/lib64/pkgconfig:/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/lib/pkgconfig:/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/share/pkgconfig:/software/serf-1.3.9-el7-x86_64/lib/pkgconfig pkg-config --cflags ipopt`
+INCL = `PKG_CONFIG_PATH=/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/lib64/pkgconfig:/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/lib/pkgconfig:/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/share/pkgconfig:/software/python-2.7.12-el7-x86_64/lib/pkgconfig:/software/openmpi-2.0.1-el7-x86_64/lib/pkgconfig:/software/serf-1.3.9-el7-x86_64/lib/pkgconfig pkg-config --cflags ipopt`
 #INCL = -I`$(CYGPATH_W) /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/include/coin` 
 
 # Linker flags
-LIBS = `PKG_CONFIG_PATH=/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/lib64/pkgconfig:/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/lib/pkgconfig:/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/share/pkgconfig:/software/serf-1.3.9-el7-x86_64/lib/pkgconfig pkg-config --libs ipopt | sed -e 's/-framework vecLib//g'`
+LIBS = `PKG_CONFIG_PATH=/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/lib64/pkgconfig:/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/lib/pkgconfig:/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/share/pkgconfig:/software/python-2.7.12-el7-x86_64/lib/pkgconfig:/software/openmpi-2.0.1-el7-x86_64/lib/pkgconfig:/software/serf-1.3.9-el7-x86_64/lib/pkgconfig pkg-config --libs ipopt | sed -e 's/-framework vecLib//g'`
 ##LIBS = -link -libpath:`$(CYGPATH_W) /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/lib` libipopt.lib -llapack -lblas -lm  -ldl
 #LIBS = -L/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/lib -lipopt `echo -llapack -lblas -lm  -ldl | sed -e 's/-framework vecLib//g'`
 LIBS_STATIC = $(LIBS)

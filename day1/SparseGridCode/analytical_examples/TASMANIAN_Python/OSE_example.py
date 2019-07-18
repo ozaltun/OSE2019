@@ -142,6 +142,8 @@ for iK in range(refinement_level):
     aVals = np.empty([aPoints.shape[0], 1])
     for iI in range(aPoints.shape[0]):
         aVals[iI] = math.cos(0.5 * math.pi * aPoints[iI][0]) * math.cos(0.5 * math.pi * aPoints[iI][1])
+    
+    print(aVals.shape)
     grid1.loadNeededPoints(aVals)
 
     aRes = grid1.evaluateBatch(aPnts)

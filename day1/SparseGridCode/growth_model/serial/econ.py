@@ -38,4 +38,12 @@ def output_f(kap=[], lab=[]):
     fun_val = big_A*(kap**psi)*(lab**(1.0 - psi))
     return fun_val
 
+def stochastic_output_f(kap=[], lab=[]):
+    theta_index = np.random.randint(5, size=1)[0]
+    theta = 0.9+theta_index*0.05
+    fun_val = theta*big_A*(kap**psi)*(lab**(1.0 - psi))
+    return fun_val
+
+
+
 #======================================================================
