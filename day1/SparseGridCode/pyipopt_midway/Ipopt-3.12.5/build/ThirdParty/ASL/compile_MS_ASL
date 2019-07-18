@@ -12,8 +12,13 @@ set -e
 # copying the sources.
 
 # set -x
+<<<<<<< HEAD
 mkinstalldirs="/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL/install-sh -d"
 abs_source_dir=/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL
+=======
+mkinstalldirs="/Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL/install-sh -d"
+abs_source_dir=/Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL
+>>>>>>> upstream/master
 compdir=compdir
 
 rm -rf $compdir
@@ -53,7 +58,7 @@ sed -e 's/comptry\.bat \$(CC)/$(CC)/' makefile.vc > makefile.coin
 
 libampl=libamplsolver.a
 MAKEFLAGS=
-nmake -f makefile.coin -j 1 CFLAGS=" -O3 -pipe -DNDEBUG -DASL_BUILD  -fPIC -DPIC" CC="gcc"
+nmake -f makefile.coin -j 1 CFLAGS=" -O3 -pipe -DNDEBUG -DASL_BUILD  -fPIC -DPIC" CC="cc"
 mv amplsolv.lib ../$libampl
 mv stdio1.h arith.h funcadd0.obj ..
 cd ..
