@@ -12,8 +12,8 @@ set -e
 # copying the sources.
 
 # set -x
-mkinstalldirs="/home/simon/projects/OSM2018/day1_SparseGrid/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL/install-sh -d"
-abs_source_dir=/home/simon/projects/OSM2018/day1_SparseGrid/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL
+mkinstalldirs="/Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL/install-sh -d"
+abs_source_dir=/Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL
 compdir=compdir
 
 # Remove the old compilation directory, if present, and create a new one. Then
@@ -69,7 +69,7 @@ fi
 # trailing spaces in the string we're matching, in case the 64-bit flag is the
 # only content in CFLAGS.
 
-case "x86_64-unknown-linux-gnu" in
+case "i386-apple-darwin18.6.0" in
   *86-*-solaris*)
     case " -O3 -pipe -DNDEBUG    -DASL_BUILD " in
       *" "-m64" "* | *" "-xarch=*64*" "*)
@@ -91,7 +91,7 @@ esac
 # configure has already put the appropriate information into ASLMAKEFLAGS.
 
 libampl=libamplsolver.a
-make -f makefile.coin -j 1 CFLAGS=" -O3 -pipe -DNDEBUG -DASL_BUILD  -fPIC -DPIC" CC="gcc"
+make -f makefile.coin -j 1 CFLAGS=" -O3 -pipe -DNDEBUG -DASL_BUILD  -fPIC -DPIC" CC="cc"
 mv amplsolver.a ../$libampl
 mv stdio1.h arith.h funcadd0.o ..
 cd ..

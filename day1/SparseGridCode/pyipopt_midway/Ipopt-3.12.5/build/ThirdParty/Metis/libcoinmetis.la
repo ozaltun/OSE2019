@@ -5,10 +5,10 @@
 # It is necessary for linking the library.
 
 # The name that we can dlopen(3).
-dlname='libcoinmetis.so.1'
+dlname='libcoinmetis.1.dylib'
 
 # Names of this library.
-library_names='libcoinmetis.so.1.2.9 libcoinmetis.so.1 libcoinmetis.so'
+library_names='libcoinmetis.1.2.9.dylib libcoinmetis.1.dylib libcoinmetis.dylib'
 
 # The name of the static archive.
 old_library=''
