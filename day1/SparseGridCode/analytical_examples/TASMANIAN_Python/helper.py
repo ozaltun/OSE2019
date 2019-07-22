@@ -73,7 +73,7 @@ def main(function, d, function_name = 'Not given', refinement_level = 5):
     # Sparse Grid with dimension 2 and 1 output and refinement level 5
     iDim = d
     iOut = 1
-    iDepth = 5
+    iDepth = 3
     which_basis = 1 #1= linear basis functions -> Check the manual for other options
 
     print("Using fixed sparse grid with depth {0:1d}".format(iDepth))
@@ -145,7 +145,7 @@ def draw_plots(data):
         error.append(data[1][i]['fError1'])
         num_p.append(data[1][i]['iNumP1'])
         
-    fig, ax = plt.subplots(1, 2, figsize=(10,5))
+    fig, ax = plt.subplots(1, 3, figsize=(10,5))
     ax[0].scatter(refinement, error)
     ax[0].axhline(y=data[0]['fError1'], color='r', linestyle='-')
     ax[0].set_xlabel('Refinement')
@@ -155,6 +155,10 @@ def draw_plots(data):
     ax[1].axhline(y=data[0]['iNumP1'], color='r', linestyle='-')
     ax[1].set_xlabel('Refinement')
     ax[1].set_ylabel('Number of points')
+    
+    ax[2].scatter(num_p, error)
+    ax[2].set_xlabel('Number of points')
+    ax[2].set_ylabel('Error')
     
     return fig, ax
 
