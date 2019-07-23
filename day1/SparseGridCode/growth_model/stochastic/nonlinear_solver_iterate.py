@@ -114,6 +114,7 @@ def iterate(k_init, paramL, grid_list):
     l=x[n_agents:2*n_agents]
     inv=x[2*n_agents:3*n_agents]
     to_print=np.hstack((obj,x))
+    
     # === debug
     #f=open("results.txt", 'a')
     #np.savetxt(f, np.transpose(to_print)) #, fmt=len(x)*'%10.10f ')

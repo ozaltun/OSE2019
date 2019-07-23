@@ -52,6 +52,7 @@ def EV_F_ITER(X, k_init, paramL, grid_list):
     lab=X[n_agents:2*n_agents]
     inv=X[2*n_agents:3*n_agents]
     knext= (1-delta)*k_init + inv
+    
     # Compute Value Function
     e0 = grid_list[0].evaluate(knext)
     e1 = grid_list[1].evaluate(knext)
@@ -59,10 +60,13 @@ def EV_F_ITER(X, k_init, paramL, grid_list):
     e3 = grid_list[3].evaluate(knext)
     e4 = grid_list[4].evaluate(knext)
     
+    
     expectation = 1/5.*(e0+e1+e2+e3+e4)
         
     utility_temp = utility(paramL, cons, lab)
-    VT_sum = utility_temp + 1/5*beta*expectation
+    
+    VT_sum = utility_temp + beta*expectation
+    
     return VT_sum[0]
     
 #=======================================================================
