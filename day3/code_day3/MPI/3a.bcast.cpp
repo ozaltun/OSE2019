@@ -4,13 +4,14 @@
  * 
  * ======================================================================*/   
 
-    #include <stdio.h>
-    #include <iostream>
-    #include "mpi.h"
 
-    using namespace std;
+#include <stdio.h>
+#include <iostream>
+#include "mpi.h"
 
-    int main(int argc, char *argv[]) {
+using namespace std;
+
+int main(int argc, char *argv[]) {
     int rank, data;
     MPI_Init(&argc, &argv);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
