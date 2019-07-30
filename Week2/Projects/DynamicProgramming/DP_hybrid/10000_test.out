@@ -1,0 +1,3 @@
+mpicxx -O3 -g -ffast-math -fopenmp  -c param.cpp
+mpicxx -O3 -g -ffast-math -fopenmp  -o VFI main.o param.o econ.o solver.o 
+slurmstepd-midway2-0046: error: *** JOB 61569439 ON midway2-0046 CANCELLED AT 2019-07-25T17:50:58 ***

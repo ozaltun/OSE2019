@@ -1,0 +1,10 @@
+make: Nothing to be done for `all'.
+Number of Paths: 100000000
+Underlying:      100
+Strike:          100
+Risk-Free Rate:  0.05
+Volatility:      0.2
+Maturity:        1
+Call Price:      10.4516
+Time it took: 33.2388
+Put Price:       5.57476

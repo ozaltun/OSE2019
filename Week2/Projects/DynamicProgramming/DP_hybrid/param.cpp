@@ -27,7 +27,7 @@ double kmin=0.85;
 double kmax=1.15;
 
 // Number of capital stocks and discretization level
-int nk=20000;//31;
+int nk=100000;//31;
 double kappa=(kmax-kmin)/(nk-1.0);
 
 // Number of theta states and the minimum and maximum theta values

@@ -14,7 +14,7 @@
 #include "param.hpp"
 #include "econ.hpp"
 #include <mpi.h>
-
+#include "omp.h"
 using namespace Eigen;
 using namespace std;
 
@@ -55,7 +55,7 @@ int main(int argc, char *argv[]) {
     // Obtain number of proccesses and id's in MPI Comm World
     MPI_Comm_rank(MPI_COMM_WORLD, &world_rank);
     MPI_Comm_size(MPI_COMM_WORLD, &world_size);
-    
+    int max_threads = omp_get_max_threads();
     
     /* Declare and Initialize the Policy Function to a Matrix of Zeros. Only the process with rank 0 inside
      MPI_Comm_World needs to store the complete (nk x ntheta) matrix. Thus, all other processes define
@@ -161,7 +161,7 @@ int main(int argc, char *argv[]) {
         // World Rank 0 process computes and prints the maximum difference between the old and new value functions
         if (world_rank==0) {
             errmax=(ValNew-ValOld).array().abs().maxCoeff();
-            printf("iteration %d max error %f \n", i+1, errmax);
+           // printf("iteration %d max error %f \n", i+1, errmax);
             
             /* We store the results in a text file every datafreq iterations. If datafreq=1, we store the results
              for every iteration.
@@ -202,6 +202,16 @@ int main(int argc, char *argv[]) {
         
     }
     
+    
+    if (world_rank==0) {
+    
+        printf("%d \t", nk);
+
+        printf("%d \t", world_size);
+
+        printf("%d \t", max_threads);
+
+    }
     // End the timing of the iterations
     t2=MPI_Wtime();
     
@@ -209,7 +219,7 @@ int main(int argc, char *argv[]) {
     if (world_rank==0) {
         
         // Print Elapsed Time
-        printf( "Iterations took %f seconds\n", t2 - t1 );
+        printf("%f \t", t2-t1);
         
         // Perform one last iteration so we can compute how much time it takes to write the results
         
@@ -251,7 +261,7 @@ int main(int argc, char *argv[]) {
         // End timing
         t2=MPI_Wtime();
         
-        printf("Final Part (writing) took %f seconds\n", t2 - t1 );
+        printf("%f \n", t2-t1);
     }
     
     
