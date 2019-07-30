@@ -1,4 +1,155 @@
 IpTSymLinearSolver.lo: \
+<<<<<<< HEAD
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/IpTSymLinearSolver.cpp \
+ /usr/include/stdc-predef.h \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/IpTSymLinearSolver.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/IpSymLinearSolver.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpUtils.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpTypes.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpoptConfig.h \
+ ../../../src/Common/config.h \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpDebug.hpp \
+ /usr/include/c++/4.8.2/cassert /usr/include/assert.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../LinAlg/IpSymMatrix.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../LinAlg/IpMatrix.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../LinAlg/IpVector.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpTypes.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpTaggedObject.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpUtils.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpReferenced.hpp \
+ /usr/include/c++/4.8.2/list /usr/include/c++/4.8.2/bits/stl_algobase.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/os_defines.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/cpu_defines.h \
+ /usr/include/c++/4.8.2/bits/functexcept.h \
+ /usr/include/c++/4.8.2/bits/exception_defines.h \
+ /usr/include/c++/4.8.2/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8.2/ext/type_traits.h \
+ /usr/include/c++/4.8.2/ext/numeric_traits.h \
+ /usr/include/c++/4.8.2/bits/stl_pair.h \
+ /usr/include/c++/4.8.2/bits/move.h \
+ /usr/include/c++/4.8.2/bits/concept_check.h \
+ /usr/include/c++/4.8.2/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8.2/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8.2/debug/debug.h \
+ /usr/include/c++/4.8.2/bits/stl_iterator.h \
+ /usr/include/c++/4.8.2/bits/allocator.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++allocator.h \
+ /usr/include/c++/4.8.2/ext/new_allocator.h /usr/include/c++/4.8.2/new \
+ /usr/include/c++/4.8.2/exception \
+ /usr/include/c++/4.8.2/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8.2/bits/memoryfwd.h \
+ /usr/include/c++/4.8.2/bits/range_access.h \
+ /usr/include/c++/4.8.2/bits/stl_list.h \
+ /usr/include/c++/4.8.2/bits/list.tcc \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpObserver.hpp \
+ /usr/include/c++/4.8.2/vector \
+ /usr/include/c++/4.8.2/bits/stl_construct.h \
+ /usr/include/c++/4.8.2/ext/alloc_traits.h \
+ /usr/include/c++/4.8.2/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8.2/bits/stl_vector.h \
+ /usr/include/c++/4.8.2/bits/stl_bvector.h \
+ /usr/include/c++/4.8.2/bits/vector.tcc /usr/include/c++/4.8.2/algorithm \
+ /usr/include/c++/4.8.2/utility /usr/include/c++/4.8.2/bits/stl_relops.h \
+ /usr/include/c++/4.8.2/bits/stl_algo.h /usr/include/c++/4.8.2/cstdlib \
+ /usr/include/stdlib.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/bits/byteswap-16.h \
+ /usr/include/xlocale.h /usr/include/sys/types.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/c++/4.8.2/bits/algorithmfwd.h \
+ /usr/include/c++/4.8.2/bits/stl_heap.h \
+ /usr/include/c++/4.8.2/bits/stl_tempbuf.h /usr/include/c++/4.8.2/limits \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpCachedResults.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpTaggedObject.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpSmartPtr.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpJournalist.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpSmartPtr.hpp \
+ /usr/include/c++/4.8.2/cstdarg \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h \
+ /usr/include/c++/4.8.2/cstdio /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/c++/4.8.2/string \
+ /usr/include/c++/4.8.2/bits/stringfwd.h \
+ /usr/include/c++/4.8.2/bits/char_traits.h \
+ /usr/include/c++/4.8.2/bits/postypes.h /usr/include/c++/4.8.2/cwchar \
+ /usr/include/bits/wchar.h /usr/include/c++/4.8.2/bits/localefwd.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++locale.h \
+ /usr/include/c++/4.8.2/clocale /usr/include/locale.h \
+ /usr/include/bits/locale.h /usr/include/c++/4.8.2/iosfwd \
+ /usr/include/c++/4.8.2/cctype /usr/include/ctype.h \
+ /usr/include/c++/4.8.2/bits/ostream_insert.h \
+ /usr/include/c++/4.8.2/bits/cxxabi_forced.h \
+ /usr/include/c++/4.8.2/bits/stl_function.h \
+ /usr/include/c++/4.8.2/backward/binders.h \
+ /usr/include/c++/4.8.2/bits/basic_string.h \
+ /usr/include/c++/4.8.2/ext/atomicity.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/bits/timex.h /usr/include/bits/setjmp.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/atomic_word.h \
+ /usr/include/c++/4.8.2/bits/basic_string.tcc \
+ /usr/include/c++/4.8.2/ostream /usr/include/c++/4.8.2/ios \
+ /usr/include/c++/4.8.2/bits/ios_base.h \
+ /usr/include/c++/4.8.2/bits/locale_classes.h \
+ /usr/include/c++/4.8.2/bits/locale_classes.tcc \
+ /usr/include/c++/4.8.2/streambuf \
+ /usr/include/c++/4.8.2/bits/streambuf.tcc \
+ /usr/include/c++/4.8.2/bits/basic_ios.h \
+ /usr/include/c++/4.8.2/bits/locale_facets.h \
+ /usr/include/c++/4.8.2/cwctype /usr/include/wctype.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/ctype_base.h \
+ /usr/include/c++/4.8.2/bits/streambuf_iterator.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/ctype_inline.h \
+ /usr/include/c++/4.8.2/bits/locale_facets.tcc \
+ /usr/include/c++/4.8.2/bits/basic_ios.tcc \
+ /usr/include/c++/4.8.2/bits/ostream.tcc \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpException.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpJournalist.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../IpAlgStrategy.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpOptionsList.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpException.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpRegOptions.hpp \
+ /usr/include/c++/4.8.2/map /usr/include/c++/4.8.2/bits/stl_tree.h \
+ /usr/include/c++/4.8.2/bits/stl_map.h \
+ /usr/include/c++/4.8.2/bits/stl_multimap.h \
+ /usr/include/c++/4.8.2/iostream /usr/include/c++/4.8.2/istream \
+ /usr/include/c++/4.8.2/bits/istream.tcc \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../IpIpoptCalculatedQuantities.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../IpIpoptNLP.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Interfaces/IpNLP.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../LinAlg/IpVector.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../LinAlg/IpMatrix.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Interfaces/IpAlgTypes.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Interfaces/IpReturnCodes.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Interfaces/IpReturnCodes_inc.h \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../IpNLPScaling.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpRegOptions.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../IpIpoptData.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../IpIteratesVector.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../LinAlg/IpCompoundVector.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../IpTimingStatistics.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpReferenced.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpTimedTask.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/IpSparseSymLinearSolverInterface.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/IpTSymScalingMethod.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/IpTripletToCSRConverter.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../LinAlg/TMatrices/IpTripletHelper.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../LinAlg/IpBlas.hpp
+
+/usr/include/stdc-predef.h:
+=======
   ../../../../../Ipopt/src/Algorithm/LinearSolvers/IpTSymLinearSolver.cpp \
   ../../../../../Ipopt/src/Algorithm/LinearSolvers/IpTSymLinearSolver.hpp \
   ../../../../../Ipopt/src/Algorithm/LinearSolvers/IpSymLinearSolver.hpp \
@@ -262,6 +413,7 @@ IpTSymLinearSolver.lo: \
   ../../../../../Ipopt/src/Algorithm/LinearSolvers/IpTripletToCSRConverter.hpp \
   ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../LinAlg/TMatrices/IpTripletHelper.hpp \
   ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../LinAlg/IpBlas.hpp
+>>>>>>> upstream/master
 
 ../../../../../Ipopt/src/Algorithm/LinearSolvers/IpTSymLinearSolver.hpp:
 
@@ -277,12 +429,25 @@ IpTSymLinearSolver.lo: \
 
 ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpDebug.hpp:
 
+<<<<<<< HEAD
+/usr/include/c++/4.8.2/cassert:
+=======
 /Library/Developer/CommandLineTools/usr/include/c++/v1/cassert:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/__config:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/assert.h:
 
+<<<<<<< HEAD
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+=======
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/cdefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_symbol_aliasing.h:
@@ -412,6 +577,7 @@ IpTSymLinearSolver.lo: \
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_dev_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_mode_t.h:
+>>>>>>> upstream/master
 
 ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../LinAlg/IpSymMatrix.hpp:
 
@@ -423,6 +589,61 @@ IpTSymLinearSolver.lo: \
 
 ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpReferenced.hpp:
 
+<<<<<<< HEAD
+/usr/include/c++/4.8.2/list:
+
+/usr/include/c++/4.8.2/bits/stl_algobase.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/os_defines.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/cpu_defines.h:
+
+/usr/include/c++/4.8.2/bits/functexcept.h:
+
+/usr/include/c++/4.8.2/bits/exception_defines.h:
+
+/usr/include/c++/4.8.2/bits/cpp_type_traits.h:
+
+/usr/include/c++/4.8.2/ext/type_traits.h:
+
+/usr/include/c++/4.8.2/ext/numeric_traits.h:
+
+/usr/include/c++/4.8.2/bits/stl_pair.h:
+
+/usr/include/c++/4.8.2/bits/move.h:
+
+/usr/include/c++/4.8.2/bits/concept_check.h:
+
+/usr/include/c++/4.8.2/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/4.8.2/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/4.8.2/debug/debug.h:
+
+/usr/include/c++/4.8.2/bits/stl_iterator.h:
+
+/usr/include/c++/4.8.2/bits/allocator.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++allocator.h:
+
+/usr/include/c++/4.8.2/ext/new_allocator.h:
+
+/usr/include/c++/4.8.2/new:
+
+/usr/include/c++/4.8.2/exception:
+
+/usr/include/c++/4.8.2/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/4.8.2/bits/memoryfwd.h:
+
+/usr/include/c++/4.8.2/bits/range_access.h:
+
+/usr/include/c++/4.8.2/bits/stl_list.h:
+
+/usr/include/c++/4.8.2/bits/list.tcc:
+=======
 /Library/Developer/CommandLineTools/usr/include/c++/v1/list:
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/memory:
@@ -480,11 +701,37 @@ IpTSymLinearSolver.lo: \
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/wchar.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_mbstate_t.h:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include/stdarg.h:
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/stdio.h:
 
+<<<<<<< HEAD
+/usr/include/c++/4.8.2/vector:
+
+/usr/include/c++/4.8.2/bits/stl_construct.h:
+
+/usr/include/c++/4.8.2/ext/alloc_traits.h:
+
+/usr/include/c++/4.8.2/bits/stl_uninitialized.h:
+
+/usr/include/c++/4.8.2/bits/stl_vector.h:
+
+/usr/include/c++/4.8.2/bits/stl_bvector.h:
+
+/usr/include/c++/4.8.2/bits/vector.tcc:
+
+/usr/include/c++/4.8.2/algorithm:
+
+/usr/include/c++/4.8.2/utility:
+
+/usr/include/c++/4.8.2/bits/stl_relops.h:
+
+/usr/include/c++/4.8.2/bits/stl_algo.h:
+
+/usr/include/c++/4.8.2/cstdlib:
+=======
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/stdio.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_stdio.h:
@@ -508,17 +755,37 @@ IpTSymLinearSolver.lo: \
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/__wctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_wint_t.h:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_types/_wctype_t.h:
 
+<<<<<<< HEAD
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+=======
 /Library/Developer/CommandLineTools/usr/include/c++/v1/ctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/ctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_ctype.h:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/runetype.h:
 
+<<<<<<< HEAD
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/bits/byteswap-16.h:
+=======
 /Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base:
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base_03:
@@ -532,13 +799,31 @@ IpTSymLinearSolver.lo: \
 /Library/Developer/CommandLineTools/usr/include/c++/v1/algorithm:
 
 ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpObserver.hpp:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/vector:
 
+<<<<<<< HEAD
+/usr/include/sys/types.h:
+=======
 /Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/climits:
 
+<<<<<<< HEAD
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+=======
 /Library/Developer/CommandLineTools/usr/include/c++/v1/limits.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include/limits.h:
@@ -552,9 +837,21 @@ IpTSymLinearSolver.lo: \
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/i386/_limits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/syslimits.h:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer:
 
+<<<<<<< HEAD
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/c++/4.8.2/bits/algorithmfwd.h:
+
+/usr/include/c++/4.8.2/bits/stl_heap.h:
+
+/usr/include/c++/4.8.2/bits/stl_tempbuf.h:
+
+/usr/include/c++/4.8.2/limits:
+=======
 ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpCachedResults.hpp:
 
 ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpSmartPtr.hpp:
@@ -568,6 +865,7 @@ IpTSymLinearSolver.lo: \
 /Library/Developer/CommandLineTools/usr/include/c++/v1/string:
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/string_view:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/__string:
 
@@ -579,11 +877,19 @@ IpTSymLinearSolver.lo: \
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/wctype.h:
 
+<<<<<<< HEAD
+/usr/include/c++/4.8.2/cstdarg:
+
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stdarg.h:
+
+/usr/include/c++/4.8.2/cstdio:
+=======
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/wctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_types/_wctrans_t.h:
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/ostream:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/ios:
 
@@ -593,6 +899,31 @@ IpTSymLinearSolver.lo: \
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/__mutex_base:
 
+<<<<<<< HEAD
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/c++/4.8.2/string:
+
+/usr/include/c++/4.8.2/bits/stringfwd.h:
+
+/usr/include/c++/4.8.2/bits/char_traits.h:
+
+/usr/include/c++/4.8.2/bits/postypes.h:
+
+/usr/include/c++/4.8.2/cwchar:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/c++/4.8.2/bits/localefwd.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++locale.h:
+
+/usr/include/c++/4.8.2/clocale:
+=======
 /Library/Developer/CommandLineTools/usr/include/c++/v1/chrono:
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/ctime:
@@ -620,17 +951,43 @@ IpTSymLinearSolver.lo: \
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/pthread_impl.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
 
+<<<<<<< HEAD
+/usr/include/bits/locale.h:
+
+/usr/include/c++/4.8.2/iosfwd:
+
+/usr/include/c++/4.8.2/cctype:
+=======
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_pthread/_pthread_once_t.h:
 
+<<<<<<< HEAD
+/usr/include/c++/4.8.2/bits/ostream_insert.h:
+
+/usr/include/c++/4.8.2/bits/cxxabi_forced.h:
+
+/usr/include/c++/4.8.2/bits/stl_function.h:
+
+/usr/include/c++/4.8.2/backward/binders.h:
+
+/usr/include/c++/4.8.2/bits/basic_string.h:
+
+/usr/include/c++/4.8.2/ext/atomicity.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr-default.h:
+=======
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h:
@@ -646,11 +1003,43 @@ IpTSymLinearSolver.lo: \
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sched.h:
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/functional:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_03:
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/locale.h:
 
+<<<<<<< HEAD
+/usr/include/bits/sched.h:
+
+/usr/include/bits/timex.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/atomic_word.h:
+
+/usr/include/c++/4.8.2/bits/basic_string.tcc:
+
+/usr/include/c++/4.8.2/ostream:
+
+/usr/include/c++/4.8.2/ios:
+
+/usr/include/c++/4.8.2/bits/ios_base.h:
+
+/usr/include/c++/4.8.2/bits/locale_classes.h:
+
+/usr/include/c++/4.8.2/bits/locale_classes.tcc:
+
+/usr/include/c++/4.8.2/streambuf:
+
+/usr/include/c++/4.8.2/bits/streambuf.tcc:
+
+/usr/include/c++/4.8.2/bits/basic_ios.h:
+
+/usr/include/c++/4.8.2/bits/locale_facets.h:
+
+/usr/include/c++/4.8.2/cwctype:
+=======
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/locale.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_locale.h:
@@ -682,9 +1071,23 @@ IpTSymLinearSolver.lo: \
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/nl_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/types.h:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_u_char.h:
 
+<<<<<<< HEAD
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/ctype_base.h:
+
+/usr/include/c++/4.8.2/bits/streambuf_iterator.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/ctype_inline.h:
+
+/usr/include/c++/4.8.2/bits/locale_facets.tcc:
+
+/usr/include/c++/4.8.2/bits/basic_ios.tcc:
+
+/usr/include/c++/4.8.2/bits/ostream.tcc:
+=======
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_u_short.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_u_int.h:
@@ -696,6 +1099,7 @@ IpTSymLinearSolver.lo: \
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_blksize_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_gid_t.h:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_in_addr_t.h:
 
@@ -709,6 +1113,21 @@ IpTSymLinearSolver.lo: \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_nlink_t.h:
 
+<<<<<<< HEAD
+/usr/include/c++/4.8.2/map:
+
+/usr/include/c++/4.8.2/bits/stl_tree.h:
+
+/usr/include/c++/4.8.2/bits/stl_map.h:
+
+/usr/include/c++/4.8.2/bits/stl_multimap.h:
+
+/usr/include/c++/4.8.2/iostream:
+
+/usr/include/c++/4.8.2/istream:
+
+/usr/include/c++/4.8.2/bits/istream.tcc:
+=======
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_useconds_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_suseconds_t.h:
@@ -752,6 +1171,7 @@ IpTSymLinearSolver.lo: \
 /Library/Developer/CommandLineTools/usr/include/c++/v1/iostream:
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/istream:
+>>>>>>> upstream/master
 
 ../../../../../Ipopt/src/Algorithm/LinearSolvers/../IpIpoptCalculatedQuantities.hpp:
 

@@ -1,0 +1,3 @@
+mpicxx -O3 -g -ffast-math -fopenmp  -c param.cpp
+mpicxx -O3 -g -ffast-math -fopenmp  -o VFI main.o param.o econ.o solver.o 
+50000 	1 	1 	1380.744214 	1.388298 

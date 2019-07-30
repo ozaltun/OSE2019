@@ -1,4 +1,61 @@
 IpObserver.lo: ../../../../Ipopt/src/Common/IpObserver.cpp \
+<<<<<<< HEAD
+ /usr/include/stdc-predef.h ../../../../Ipopt/src/Common/IpObserver.hpp \
+ ../../../../Ipopt/src/Common/IpUtils.hpp \
+ ../../../../Ipopt/src/Common/IpTypes.hpp \
+ ../../../../Ipopt/src/Common/IpoptConfig.h config.h \
+ ../../../../Ipopt/src/Common/IpDebug.hpp /usr/include/c++/4.8.2/cassert \
+ /usr/include/assert.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/c++/4.8.2/vector \
+ /usr/include/c++/4.8.2/bits/stl_algobase.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/os_defines.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/cpu_defines.h \
+ /usr/include/c++/4.8.2/bits/functexcept.h \
+ /usr/include/c++/4.8.2/bits/exception_defines.h \
+ /usr/include/c++/4.8.2/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8.2/ext/type_traits.h \
+ /usr/include/c++/4.8.2/ext/numeric_traits.h \
+ /usr/include/c++/4.8.2/bits/stl_pair.h \
+ /usr/include/c++/4.8.2/bits/move.h \
+ /usr/include/c++/4.8.2/bits/concept_check.h \
+ /usr/include/c++/4.8.2/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8.2/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8.2/debug/debug.h \
+ /usr/include/c++/4.8.2/bits/stl_iterator.h \
+ /usr/include/c++/4.8.2/bits/allocator.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++allocator.h \
+ /usr/include/c++/4.8.2/ext/new_allocator.h /usr/include/c++/4.8.2/new \
+ /usr/include/c++/4.8.2/exception \
+ /usr/include/c++/4.8.2/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8.2/bits/memoryfwd.h \
+ /usr/include/c++/4.8.2/bits/stl_construct.h \
+ /usr/include/c++/4.8.2/ext/alloc_traits.h \
+ /usr/include/c++/4.8.2/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8.2/bits/stl_vector.h \
+ /usr/include/c++/4.8.2/bits/stl_bvector.h \
+ /usr/include/c++/4.8.2/bits/range_access.h \
+ /usr/include/c++/4.8.2/bits/vector.tcc /usr/include/c++/4.8.2/algorithm \
+ /usr/include/c++/4.8.2/utility /usr/include/c++/4.8.2/bits/stl_relops.h \
+ /usr/include/c++/4.8.2/bits/stl_algo.h /usr/include/c++/4.8.2/cstdlib \
+ /usr/include/stdlib.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/bits/byteswap-16.h \
+ /usr/include/xlocale.h /usr/include/sys/types.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/c++/4.8.2/bits/algorithmfwd.h \
+ /usr/include/c++/4.8.2/bits/stl_heap.h \
+ /usr/include/c++/4.8.2/bits/stl_tempbuf.h
+
+/usr/include/stdc-predef.h:
+=======
   ../../../../Ipopt/src/Common/IpObserver.hpp \
   ../../../../Ipopt/src/Common/IpUtils.hpp \
   ../../../../Ipopt/src/Common/IpTypes.hpp \
@@ -136,6 +193,7 @@ IpObserver.lo: ../../../../Ipopt/src/Common/IpObserver.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/i386/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/syslimits.h \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer
+>>>>>>> upstream/master
 
 ../../../../Ipopt/src/Common/IpObserver.hpp:
 
@@ -149,12 +207,97 @@ config.h:
 
 ../../../../Ipopt/src/Common/IpDebug.hpp:
 
+<<<<<<< HEAD
+/usr/include/c++/4.8.2/cassert:
+=======
 /Library/Developer/CommandLineTools/usr/include/c++/v1/cassert:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/__config:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/assert.h:
 
+<<<<<<< HEAD
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/c++/4.8.2/vector:
+
+/usr/include/c++/4.8.2/bits/stl_algobase.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/os_defines.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/cpu_defines.h:
+
+/usr/include/c++/4.8.2/bits/functexcept.h:
+
+/usr/include/c++/4.8.2/bits/exception_defines.h:
+
+/usr/include/c++/4.8.2/bits/cpp_type_traits.h:
+
+/usr/include/c++/4.8.2/ext/type_traits.h:
+
+/usr/include/c++/4.8.2/ext/numeric_traits.h:
+
+/usr/include/c++/4.8.2/bits/stl_pair.h:
+
+/usr/include/c++/4.8.2/bits/move.h:
+
+/usr/include/c++/4.8.2/bits/concept_check.h:
+
+/usr/include/c++/4.8.2/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/4.8.2/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/4.8.2/debug/debug.h:
+
+/usr/include/c++/4.8.2/bits/stl_iterator.h:
+
+/usr/include/c++/4.8.2/bits/allocator.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++allocator.h:
+
+/usr/include/c++/4.8.2/ext/new_allocator.h:
+
+/usr/include/c++/4.8.2/new:
+
+/usr/include/c++/4.8.2/exception:
+
+/usr/include/c++/4.8.2/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/4.8.2/bits/memoryfwd.h:
+
+/usr/include/c++/4.8.2/bits/stl_construct.h:
+
+/usr/include/c++/4.8.2/ext/alloc_traits.h:
+
+/usr/include/c++/4.8.2/bits/stl_uninitialized.h:
+
+/usr/include/c++/4.8.2/bits/stl_vector.h:
+
+/usr/include/c++/4.8.2/bits/stl_bvector.h:
+
+/usr/include/c++/4.8.2/bits/range_access.h:
+
+/usr/include/c++/4.8.2/bits/vector.tcc:
+
+/usr/include/c++/4.8.2/algorithm:
+
+/usr/include/c++/4.8.2/utility:
+
+/usr/include/c++/4.8.2/bits/stl_relops.h:
+
+/usr/include/c++/4.8.2/bits/stl_algo.h:
+
+/usr/include/c++/4.8.2/cstdlib:
+=======
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/cdefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_symbol_aliasing.h:
@@ -238,17 +381,37 @@ config.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_uid_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/resource.h:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/stdint.h:
 
+<<<<<<< HEAD
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+=======
 /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include/stdint.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/stdint.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_types/_uint8_t.h:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_types/_uint16_t.h:
 
+<<<<<<< HEAD
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/bits/byteswap-16.h:
+=======
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_types/_uint32_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_types/_uint64_t.h:
@@ -258,13 +421,31 @@ config.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_types/_uintmax_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_timeval.h:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/machine/endian.h:
 
+<<<<<<< HEAD
+/usr/include/sys/types.h:
+=======
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/i386/endian.h:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_endian.h:
 
+<<<<<<< HEAD
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+=======
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/libkern/_OSByteOrder.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/libkern/i386/_OSByteOrder.h:
@@ -278,9 +459,19 @@ config.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_wchar_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_null.h:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/malloc/_malloc.h:
 
+<<<<<<< HEAD
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/c++/4.8.2/bits/algorithmfwd.h:
+
+/usr/include/c++/4.8.2/bits/stl_heap.h:
+
+/usr/include/c++/4.8.2/bits/stl_tempbuf.h:
+=======
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_dev_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_mode_t.h:
@@ -412,3 +603,4 @@ config.h:
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/syslimits.h:
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer:
+>>>>>>> upstream/master

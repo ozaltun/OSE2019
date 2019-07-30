@@ -1,0 +1,113 @@
+g++ normalize_vec.cpp -fopenmp -o normalize_vec.exec
+N : 200000000
+serial error   : 1.24123e-13
+parallel error : 1.24123e-13
+1 threads
+serial     : 1.85121 seconds	parallel   : 1.45334 seconds
+speedup    : 1.27376
+efficiency : 1.27376
+N : 400000000
+serial error   : 1.93623e-13
+parallel error : 1.93623e-13
+1 threads
+serial     : 3.06629 seconds	parallel   : 2.81546 seconds
+speedup    : 1.08909
+efficiency : 1.08909
+N : 600000000
+serial error   : 9.2415e-13
+parallel error : 9.2415e-13
+1 threads
+serial     : 4.4342 seconds	parallel   : 4.21099 seconds
+speedup    : 1.05301
+efficiency : 1.05301
+N : 800000000
+serial error   : 1.30529e-12
+parallel error : 1.30529e-12
+1 threads
+serial     : 5.80617 seconds	parallel   : 5.60643 seconds
+speedup    : 1.03563
+efficiency : 1.03563
+N : 200000000
+serial error   : 1.24123e-13
+parallel error : 2.57794e-13
+2 threads
+serial     : 1.88689 seconds	parallel   : 0.812657 seconds
+speedup    : 2.32187
+efficiency : 1.16094
+N : 400000000
+serial error   : 1.93623e-13
+parallel error : 0.105573
+2 threads
+serial     : 2.9738 seconds	parallel   : 1.43016 seconds
+speedup    : 2.07935
+efficiency : 1.03967
+N : 600000000
+serial error   : 9.2415e-13
+parallel error : 0.183503
+2 threads
+serial     : 4.38831 seconds	parallel   : 2.18012 seconds
+speedup    : 2.01288
+efficiency : 1.00644
+N : 800000000
+serial error   : 1.30529e-12
+parallel error : 0.244071
+2 threads
+serial     : 5.75297 seconds	parallel   : 2.89744 seconds
+speedup    : 1.98554
+efficiency : 0.992769
+N : 200000000
+serial error   : 1.24123e-13
+parallel error : 2.57794e-13
+4 threads
+serial     : 2.01739 seconds	parallel   : 0.418944 seconds
+speedup    : 4.81542
+efficiency : 1.20386
+N : 400000000
+serial error   : 1.93623e-13
+parallel error : 0.147197
+4 threads
+serial     : 2.98901 seconds	parallel   : 0.870926 seconds
+speedup    : 3.43199
+efficiency : 0.857998
+N : 600000000
+serial error   : 9.2415e-13
+parallel error : 0.244071
+4 threads
+serial     : 4.41566 seconds	parallel   : 1.27887 seconds
+speedup    : 3.45278
+efficiency : 0.863194
+N : 800000000
+serial error   : 1.30529e-12
+parallel error : 0.314006
+4 threads
+serial     : 5.8488 seconds	parallel   : 1.83525 seconds
+speedup    : 3.18692
+efficiency : 0.796729
+N : 200000000
+serial error   : 1.24123e-13
+parallel error : 2.51799e-13
+8 threads
+serial     : 1.64969 seconds	parallel   : 0.378528 seconds
+speedup    : 4.35817
+efficiency : 0.544772
+N : 400000000
+serial error   : 1.93623e-13
+parallel error : 0.165942
+8 threads
+serial     : 2.94755 seconds	parallel   : 0.574157 seconds
+speedup    : 5.13369
+efficiency : 0.641712
+N : 600000000
+serial error   : 9.2415e-13
+parallel error : 0.269703
+8 threads
+serial     : 4.36107 seconds	parallel   : 0.650582 seconds
+speedup    : 6.70334
+efficiency : 0.837917
+N : 800000000
+serial error   : 1.30529e-12
+parallel error : 0.342404
+8 threads
+serial     : 5.79217 seconds	parallel   : 1.53134 seconds
+speedup    : 3.78242
+efficiency : 0.472803

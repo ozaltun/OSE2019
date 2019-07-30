@@ -37,7 +37,7 @@ pkglibdir = $(libdir)/ipopt
 pkgincludedir = $(includedir)/ipopt
 top_builddir = .
 am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd
-INSTALL = /usr/bin/install -c
+INSTALL = /bin/install -c
 install_sh_DATA = $(install_sh) -c -m 644
 install_sh_PROGRAM = $(install_sh) -c
 install_sh_SCRIPT = $(install_sh) -c
@@ -91,12 +91,25 @@ GZIP_ENV = --best
 distuninstallcheck_listfiles = find . -type f -print
 distcleancheck_listfiles = find . -type f -print
 ABSBUILDDIR = 
+<<<<<<< HEAD
+ACLOCAL = ${SHELL} /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/missing --run aclocal-1.9
+=======
 ACLOCAL = ${SHELL} /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/missing --run aclocal-1.9
+>>>>>>> upstream/master
 ADD_CFLAGS = 
 ADD_CXXFLAGS = 
 ADD_FFLAGS = 
 AMDEP_FALSE = #
 AMDEP_TRUE = 
+<<<<<<< HEAD
+AMTAR = ${SHELL} /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/missing --run tar
+AR = ar
+AUTOCONF = ${SHELL} /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/missing --run autoconf
+AUTOHEADER = ${SHELL} /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/missing --run autoheader
+AUTOMAKE = ${SHELL} /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/missing --run automake-1.9
+AUX_DIR = 
+AWK = gawk
+=======
 AMTAR = ${SHELL} /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/missing --run tar
 AR = ar
 AUTOCONF = ${SHELL} /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/missing --run autoconf
@@ -104,6 +117,7 @@ AUTOHEADER = ${SHELL} /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGri
 AUTOMAKE = ${SHELL} /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/missing --run automake-1.9
 AUX_DIR = 
 AWK = awk
+>>>>>>> upstream/master
 BUILDTOOLSDIR = 
 CC = clang
 CCDEPMODE = depmode=gcc3
@@ -115,8 +129,13 @@ COIN_CXX_IS_CL_FALSE =
 COIN_CXX_IS_CL_TRUE = #
 COIN_HAS_DOXYGEN_FALSE = 
 COIN_HAS_DOXYGEN_TRUE = #
+<<<<<<< HEAD
+COIN_HAS_LATEX_FALSE = 
+COIN_HAS_LATEX_TRUE = #
+=======
 COIN_HAS_LATEX_FALSE = #
 COIN_HAS_LATEX_TRUE = 
+>>>>>>> upstream/master
 COIN_SKIP_PROJECTS = 
 CPP = clang -E
 CPPFLAGS = 
@@ -126,9 +145,15 @@ CXXDEFS =
 CXXDEPMODE = depmode=gcc3
 CXXFLAGS = -O3 -pipe -DNDEBUG -Wparentheses -Wreturn-type -Wcast-qual -Wall -Wpointer-arith -Wwrite-strings -Wconversion -Wno-unknown-pragmas -Wno-long-long  
 CYGPATH_W = echo
+<<<<<<< HEAD
+DBG_CFLAGS = -g -O0 -pipe -pedantic-errors -Wimplicit -Wparentheses -Wsequence-point -Wreturn-type -Wcast-qual -Wall -Wno-unknown-pragmas -Wno-long-long  
+DBG_CXXFLAGS = -g -O0 -pipe -pedantic-errors -Wparentheses -Wreturn-type -Wcast-qual -Wall -Wpointer-arith -Wwrite-strings -Wconversion -Wno-unknown-pragmas -Wno-long-long  
+DBG_FFLAGS = -g -O0 -pipe  
+=======
 DBG_CFLAGS = -g -O0 -pipe -Wimplicit -Wparentheses -Wsequence-point -Wreturn-type -Wcast-qual -Wall -Wno-unknown-pragmas -Wno-long-long  
 DBG_CXXFLAGS = -g -O0 -pipe -Wparentheses -Wreturn-type -Wcast-qual -Wall -Wpointer-arith -Wwrite-strings -Wconversion -Wno-unknown-pragmas -Wno-long-long  
 DBG_FFLAGS =  
+>>>>>>> upstream/master
 DEFS = -DPACKAGE_NAME=\"Ipopt\" -DPACKAGE_TARNAME=\"ipopt\" -DPACKAGE_VERSION=\"3.12.5\" -DPACKAGE_STRING=\"Ipopt\ 3.12.5\" -DPACKAGE_BUGREPORT=\"http://projects.coin-or.org/Ipopt/newticket\" -DPACKAGE=\"ipopt\" -DVERSION=\"3.12.5\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 
 DEPDIR = .deps
 DEPENDENCY_LINKING_FALSE = #
@@ -159,7 +184,11 @@ LT_LDFLAGS = -no-undefined
 MAINT = #
 MAINTAINER_MODE_FALSE = 
 MAINTAINER_MODE_TRUE = #
+<<<<<<< HEAD
+MAKEINFO = ${SHELL} /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/missing --run makeinfo
+=======
 MAKEINFO = ${SHELL} /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/missing --run makeinfo
+>>>>>>> upstream/master
 MPICC = 
 MPICXX = 
 MPIF77 = 
@@ -175,16 +204,27 @@ PACKAGE_TARNAME = ipopt
 PACKAGE_VERSION = 3.12.5
 PATH_SEPARATOR = :
 RANLIB = ranlib
+<<<<<<< HEAD
+RPATH_FLAGS =  -Wl,--rpath -Wl,/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/lib
+=======
 RPATH_FLAGS = 
+>>>>>>> upstream/master
 SET_MAKE = 
 SHELL = /bin/sh
 STRIP = strip
 VERSION = 3.12.5
 VPATH_DISTCLEANFILES = 
+<<<<<<< HEAD
+abs_bin_dir = /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/bin
+abs_include_dir = /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/include
+abs_lib_dir = /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/lib
+abs_source_dir = /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5
+=======
 abs_bin_dir = /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/bin
 abs_include_dir = /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/include
 abs_lib_dir = /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/lib
 abs_source_dir = /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5
+>>>>>>> upstream/master
 ac_c_preproc_warn_flag = 
 ac_ct_AR = ar
 ac_ct_CC = clang
@@ -214,7 +254,11 @@ coin_doxy_tagfiles =
 coin_doxy_tagname = doxydoc/ipopt_doxy.tag
 coin_doxy_usedot = YES
 coin_have_doxygen = no
+<<<<<<< HEAD
+coin_have_latex = no
+=======
 coin_have_latex = yes
+>>>>>>> upstream/master
 datadir = ${prefix}/share
 exec_prefix = ${prefix}
 have_autoconf = 
@@ -227,14 +271,22 @@ host_os = darwin18.6.0
 host_vendor = apple
 includedir = ${prefix}/include
 infodir = ${prefix}/info
+<<<<<<< HEAD
+install_sh = /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/install-sh
+=======
 install_sh = /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/install-sh
+>>>>>>> upstream/master
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localstatedir = ${prefix}/var
 mandir = ${prefix}/man
 mkdir_p = $(install_sh) -d
 oldincludedir = /usr/include
+<<<<<<< HEAD
+prefix = /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build
+=======
 prefix = /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build
+>>>>>>> upstream/master
 program_transform_name = s,x,x,
 sbindir = ${exec_prefix}/sbin
 sharedstatedir = ${prefix}/com
@@ -263,7 +315,11 @@ DISTCLEANFILES = coin_subdirs.txt $(am__append_2) \
 DocFiles = README AUTHORS LICENSE 
 DocInstallDir = $(datadir)/coin/doc/$(PACKAGE_NAME)
 COIN_HAS_DOXYGEN = #TRUE
+<<<<<<< HEAD
+COIN_HAS_LATEX = #TRUE
+=======
 COIN_HAS_LATEX = TRUE
+>>>>>>> upstream/master
 all: all-recursive
 
 .SUFFIXES:

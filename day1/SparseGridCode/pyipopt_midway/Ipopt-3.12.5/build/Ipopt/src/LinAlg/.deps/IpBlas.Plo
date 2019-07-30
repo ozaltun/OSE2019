@@ -1,4 +1,25 @@
 IpBlas.lo: ../../../../Ipopt/src/LinAlg/IpBlas.cpp \
+<<<<<<< HEAD
+ /usr/include/stdc-predef.h \
+ ../../../../Ipopt/src/LinAlg/../Common/IpoptConfig.h \
+ ../../src/Common/config.h ../../../../Ipopt/src/LinAlg/IpBlas.hpp \
+ ../../../../Ipopt/src/LinAlg/../Common/IpUtils.hpp \
+ ../../../../Ipopt/src/LinAlg/../Common/IpTypes.hpp \
+ ../../../../Ipopt/src/LinAlg/../Common/IpoptConfig.h \
+ ../../../../Ipopt/src/LinAlg/../Common/IpDebug.hpp \
+ /usr/include/c++/4.8.2/cassert /usr/include/assert.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/c++/4.8.2/cstring \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/os_defines.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/cpu_defines.h \
+ /usr/include/string.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /usr/include/xlocale.h
+
+/usr/include/stdc-predef.h:
+=======
   ../../../../Ipopt/src/LinAlg/../Common/IpoptConfig.h \
   ../../src/Common/config.h ../../../../Ipopt/src/LinAlg/IpBlas.hpp \
   ../../../../Ipopt/src/LinAlg/../Common/IpUtils.hpp \
@@ -79,6 +100,7 @@ IpBlas.lo: ../../../../Ipopt/src/LinAlg/IpBlas.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_errno_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_ssize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/strings.h
+>>>>>>> upstream/master
 
 ../../../../Ipopt/src/LinAlg/../Common/IpoptConfig.h:
 
@@ -92,6 +114,9 @@ IpBlas.lo: ../../../../Ipopt/src/LinAlg/IpBlas.cpp \
 
 ../../../../Ipopt/src/LinAlg/../Common/IpDebug.hpp:
 
+<<<<<<< HEAD
+/usr/include/c++/4.8.2/cassert:
+=======
 /Library/Developer/CommandLineTools/usr/include/c++/v1/cassert:
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/__config:
@@ -213,11 +238,29 @@ IpBlas.lo: ../../../../Ipopt/src/LinAlg/IpBlas.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/libkern/i386/_OSByteOrder.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/alloca.h:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_ct_rune_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_rune_t.h:
 
+<<<<<<< HEAD
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/c++/4.8.2/cstring:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/os_defines.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/cpu_defines.h:
+=======
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_wchar_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_null.h:
@@ -233,11 +276,18 @@ IpBlas.lo: ../../../../Ipopt/src/LinAlg/IpBlas.cpp \
 /Library/Developer/CommandLineTools/usr/include/c++/v1/string.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/string.h:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_rsize_t.h:
 
+<<<<<<< HEAD
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:
+
+/usr/include/xlocale.h:
+=======
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_errno_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_ssize_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/strings.h:
+>>>>>>> upstream/master

@@ -1,4 +1,68 @@
 IpTripletToCSRConverter.lo: \
+<<<<<<< HEAD
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/IpTripletToCSRConverter.cpp \
+ /usr/include/stdc-predef.h \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/IpTripletToCSRConverter.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpUtils.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpTypes.hpp \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpoptConfig.h \
+ ../../../src/Common/config.h \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpDebug.hpp \
+ /usr/include/c++/4.8.2/cassert /usr/include/assert.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpReferenced.hpp \
+ /usr/include/c++/4.8.2/list /usr/include/c++/4.8.2/bits/stl_algobase.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/os_defines.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/cpu_defines.h \
+ /usr/include/c++/4.8.2/bits/functexcept.h \
+ /usr/include/c++/4.8.2/bits/exception_defines.h \
+ /usr/include/c++/4.8.2/bits/cpp_type_traits.h \
+ /usr/include/c++/4.8.2/ext/type_traits.h \
+ /usr/include/c++/4.8.2/ext/numeric_traits.h \
+ /usr/include/c++/4.8.2/bits/stl_pair.h \
+ /usr/include/c++/4.8.2/bits/move.h \
+ /usr/include/c++/4.8.2/bits/concept_check.h \
+ /usr/include/c++/4.8.2/bits/stl_iterator_base_types.h \
+ /usr/include/c++/4.8.2/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/4.8.2/debug/debug.h \
+ /usr/include/c++/4.8.2/bits/stl_iterator.h \
+ /usr/include/c++/4.8.2/bits/allocator.h \
+ /usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++allocator.h \
+ /usr/include/c++/4.8.2/ext/new_allocator.h /usr/include/c++/4.8.2/new \
+ /usr/include/c++/4.8.2/exception \
+ /usr/include/c++/4.8.2/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/4.8.2/bits/memoryfwd.h \
+ /usr/include/c++/4.8.2/bits/range_access.h \
+ /usr/include/c++/4.8.2/bits/stl_list.h \
+ /usr/include/c++/4.8.2/bits/list.tcc /usr/include/c++/4.8.2/vector \
+ /usr/include/c++/4.8.2/bits/stl_construct.h \
+ /usr/include/c++/4.8.2/ext/alloc_traits.h \
+ /usr/include/c++/4.8.2/bits/stl_uninitialized.h \
+ /usr/include/c++/4.8.2/bits/stl_vector.h \
+ /usr/include/c++/4.8.2/bits/stl_bvector.h \
+ /usr/include/c++/4.8.2/bits/vector.tcc /usr/include/c++/4.8.2/algorithm \
+ /usr/include/c++/4.8.2/utility /usr/include/c++/4.8.2/bits/stl_relops.h \
+ /usr/include/c++/4.8.2/bits/stl_algo.h /usr/include/c++/4.8.2/cstdlib \
+ /usr/include/stdlib.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/bits/byteswap-16.h \
+ /usr/include/xlocale.h /usr/include/sys/types.h /usr/include/time.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/c++/4.8.2/bits/algorithmfwd.h \
+ /usr/include/c++/4.8.2/bits/stl_heap.h \
+ /usr/include/c++/4.8.2/bits/stl_tempbuf.h /usr/include/c++/4.8.2/cstddef
+
+/usr/include/stdc-predef.h:
+=======
   ../../../../../Ipopt/src/Algorithm/LinearSolvers/IpTripletToCSRConverter.cpp \
   ../../../../../Ipopt/src/Algorithm/LinearSolvers/IpTripletToCSRConverter.hpp \
   ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpUtils.hpp \
@@ -140,6 +204,7 @@ IpTripletToCSRConverter.lo: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/i386/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/syslimits.h \
   /Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer
+>>>>>>> upstream/master
 
 ../../../../../Ipopt/src/Algorithm/LinearSolvers/IpTripletToCSRConverter.hpp:
 
@@ -153,12 +218,25 @@ IpTripletToCSRConverter.lo: \
 
 ../../../../../Ipopt/src/Algorithm/LinearSolvers/../../Common/IpDebug.hpp:
 
+<<<<<<< HEAD
+/usr/include/c++/4.8.2/cassert:
+=======
 /Library/Developer/CommandLineTools/usr/include/c++/v1/cassert:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/__config:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/assert.h:
 
+<<<<<<< HEAD
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+=======
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/cdefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_symbol_aliasing.h:
@@ -166,6 +244,7 @@ IpTripletToCSRConverter.lo: \
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_posix_availability.h:
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/stdlib.h:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/stdlib.h:
 
@@ -227,6 +306,85 @@ IpTripletToCSRConverter.lo: \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_intptr_t.h:
 
+<<<<<<< HEAD
+/usr/include/c++/4.8.2/list:
+
+/usr/include/c++/4.8.2/bits/stl_algobase.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/os_defines.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/cpu_defines.h:
+
+/usr/include/c++/4.8.2/bits/functexcept.h:
+
+/usr/include/c++/4.8.2/bits/exception_defines.h:
+
+/usr/include/c++/4.8.2/bits/cpp_type_traits.h:
+
+/usr/include/c++/4.8.2/ext/type_traits.h:
+
+/usr/include/c++/4.8.2/ext/numeric_traits.h:
+
+/usr/include/c++/4.8.2/bits/stl_pair.h:
+
+/usr/include/c++/4.8.2/bits/move.h:
+
+/usr/include/c++/4.8.2/bits/concept_check.h:
+
+/usr/include/c++/4.8.2/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/4.8.2/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/4.8.2/debug/debug.h:
+
+/usr/include/c++/4.8.2/bits/stl_iterator.h:
+
+/usr/include/c++/4.8.2/bits/allocator.h:
+
+/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++allocator.h:
+
+/usr/include/c++/4.8.2/ext/new_allocator.h:
+
+/usr/include/c++/4.8.2/new:
+
+/usr/include/c++/4.8.2/exception:
+
+/usr/include/c++/4.8.2/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/4.8.2/bits/memoryfwd.h:
+
+/usr/include/c++/4.8.2/bits/range_access.h:
+
+/usr/include/c++/4.8.2/bits/stl_list.h:
+
+/usr/include/c++/4.8.2/bits/list.tcc:
+
+/usr/include/c++/4.8.2/vector:
+
+/usr/include/c++/4.8.2/bits/stl_construct.h:
+
+/usr/include/c++/4.8.2/ext/alloc_traits.h:
+
+/usr/include/c++/4.8.2/bits/stl_uninitialized.h:
+
+/usr/include/c++/4.8.2/bits/stl_vector.h:
+
+/usr/include/c++/4.8.2/bits/stl_bvector.h:
+
+/usr/include/c++/4.8.2/bits/vector.tcc:
+
+/usr/include/c++/4.8.2/algorithm:
+
+/usr/include/c++/4.8.2/utility:
+
+/usr/include/c++/4.8.2/bits/stl_relops.h:
+
+/usr/include/c++/4.8.2/bits/stl_algo.h:
+
+/usr/include/c++/4.8.2/cstdlib:
+=======
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_uintptr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
@@ -364,17 +522,37 @@ IpTripletToCSRConverter.lo: \
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_off_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/time.h:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_clock_t.h:
 
+<<<<<<< HEAD
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include/stddef.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+=======
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_time_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_timespec.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_wctype.h:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/__wctype.h:
 
+<<<<<<< HEAD
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/bits/byteswap-16.h:
+=======
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_wint_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_types/_wctype_t.h:
@@ -384,13 +562,31 @@ IpTripletToCSRConverter.lo: \
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/ctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_ctype.h:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/runetype.h:
 
+<<<<<<< HEAD
+/usr/include/sys/types.h:
+=======
 /Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/__functional_base_03:
 
+<<<<<<< HEAD
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+=======
 /Library/Developer/CommandLineTools/usr/include/c++/v1/tuple:
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/stdexcept:
@@ -404,9 +600,21 @@ IpTripletToCSRConverter.lo: \
 /Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference:
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/climits:
+>>>>>>> upstream/master
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/limits.h:
 
+<<<<<<< HEAD
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/c++/4.8.2/bits/algorithmfwd.h:
+
+/usr/include/c++/4.8.2/bits/stl_heap.h:
+
+/usr/include/c++/4.8.2/bits/stl_tempbuf.h:
+
+/usr/include/c++/4.8.2/cstddef:
+=======
 /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include/limits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/limits.h:
@@ -420,3 +628,4 @@ IpTripletToCSRConverter.lo: \
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/syslimits.h:
 
 /Library/Developer/CommandLineTools/usr/include/c++/v1/__split_buffer:
+>>>>>>> upstream/master

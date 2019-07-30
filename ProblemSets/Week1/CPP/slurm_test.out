@@ -1,0 +1,4 @@
+g++ compute_pi.cpp -o compute_pi.exec
+g++ -std=c++11 compute_pi_monte_carlo.cpp -o compute_pi_monte_carlo.exec
+3.14159
+3.14568

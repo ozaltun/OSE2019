@@ -82,6 +82,8 @@ int main(int argc, char **argv) {
   // Then we calculate the call/put values via Monte Carlo                                                                          
   double call = monte_carlo_call_price(num_sims, S, K, r, v, T);
   double put = monte_carlo_put_price(num_sims, S, K, r, v, T);
+  
+
 
   // Finally we output the parameters and prices                                                                      
   std::cout << "Number of Paths: " << num_sims << std::endl;

@@ -12,8 +12,13 @@ set -e
 # copying the sources.
 
 # set -x
+<<<<<<< HEAD
+mkinstalldirs="/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL/install-sh -d"
+abs_source_dir=/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL
+=======
 mkinstalldirs="/Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL/install-sh -d"
 abs_source_dir=/Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL
+>>>>>>> upstream/master
 compdir=compdir
 
 # Remove the old compilation directory, if present, and create a new one. Then

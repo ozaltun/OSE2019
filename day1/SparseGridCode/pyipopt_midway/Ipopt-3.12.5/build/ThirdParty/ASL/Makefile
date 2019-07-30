@@ -46,7 +46,7 @@ pkglibdir = $(libdir)/thirdpartyasl
 pkgincludedir = $(includedir)/thirdpartyasl
 top_builddir = .
 am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd
-INSTALL = /usr/bin/install -c
+INSTALL = /bin/install -c
 install_sh_DATA = $(install_sh) -c -m 644
 install_sh_PROGRAM = $(install_sh) -c
 install_sh_SCRIPT = $(install_sh) -c
@@ -127,24 +127,41 @@ DIST_ARCHIVES = $(distdir).tar.gz
 GZIP_ENV = --best
 distuninstallcheck_listfiles = find . -type f -print
 distcleancheck_listfiles = find . -type f -print
+<<<<<<< HEAD
+ABSBUILDDIR = /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/ThirdParty/ASL
+ACLOCAL = ${SHELL} /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL/missing --run aclocal-1.9
+=======
 ABSBUILDDIR = /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/ThirdParty/ASL
 ACLOCAL = ${SHELL} /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL/missing --run aclocal-1.9
+>>>>>>> upstream/master
 ADD_CFLAGS = 
 ALWAYS_FALSE_FALSE = 
 ALWAYS_FALSE_TRUE = #
 AMDEP_FALSE = #
 AMDEP_TRUE = 
 AMPLSOLVER_A = libamplsolver.a
+<<<<<<< HEAD
+AMTAR = ${SHELL} /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL/missing --run tar
+=======
 AMTAR = ${SHELL} /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL/missing --run tar
+>>>>>>> upstream/master
 AR = ar
 ASLMAKEFLAGS = -j 1 CFLAGS=" -O3 -pipe -DNDEBUG -DASL_BUILD  -fPIC -DPIC"
 ASL_PCLIBS = -lm -ldl 
 ASL_SVN_REV = 
+<<<<<<< HEAD
+AUTOCONF = ${SHELL} /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL/missing --run autoconf
+AUTOHEADER = ${SHELL} /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL/missing --run autoheader
+AUTOMAKE = ${SHELL} /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL/missing --run automake-1.9
+AUX_DIR = 
+AWK = gawk
+=======
 AUTOCONF = ${SHELL} /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL/missing --run autoconf
 AUTOHEADER = ${SHELL} /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL/missing --run autoheader
 AUTOMAKE = ${SHELL} /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL/missing --run automake-1.9
 AUX_DIR = 
 AWK = awk
+>>>>>>> upstream/master
 BUILDTOOLSDIR = 
 CC = cc
 CCDEPMODE = depmode=gcc3
@@ -152,11 +169,19 @@ CDEFS =
 CFLAGS = -O3 -pipe -DNDEBUG    -DASL_BUILD
 COIN_CC_IS_CL_FALSE = 
 COIN_CC_IS_CL_TRUE = #
+<<<<<<< HEAD
+COIN_HAS_PKGCONFIG_FALSE = #
+COIN_HAS_PKGCONFIG_TRUE = 
+COIN_PKG_CONFIG_PATH = /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/lib64/pkgconfig:/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/lib/pkgconfig:/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/share/pkgconfig:/software/python-2.7.12-el7-x86_64/lib/pkgconfig:/software/openmpi-2.0.1-el7-x86_64/lib/pkgconfig:/software/serf-1.3.9-el7-x86_64/lib/pkgconfig
+COIN_PKG_CONFIG_PATH_UNINSTALLED = /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/Ipopt:/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/ThirdParty/HSL:/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/ThirdParty/Metis:/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/ThirdParty/Lapack:/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/ThirdParty/Blas:/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/ThirdParty/ASL:
+CPP = gcc -E
+=======
 COIN_HAS_PKGCONFIG_FALSE = 
 COIN_HAS_PKGCONFIG_TRUE = #
 COIN_PKG_CONFIG_PATH = /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/lib64/pkgconfig:/Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/lib/pkgconfig:/Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/share/pkgconfig:
 COIN_PKG_CONFIG_PATH_UNINSTALLED = /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/Ipopt:/Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/ThirdParty/HSL:/Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/ThirdParty/Metis:/Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/ThirdParty/Lapack:/Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/ThirdParty/Blas:/Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/ThirdParty/ASL:
 CPP = clang -E
+>>>>>>> upstream/master
 CPPFLAGS = 
 CXX = 
 CXXCPP = clang++ -E
@@ -197,7 +222,11 @@ LT_LDFLAGS =  -version-info 3:15:2
 MAINT = #
 MAINTAINER_MODE_FALSE = 
 MAINTAINER_MODE_TRUE = #
+<<<<<<< HEAD
+MAKEINFO = ${SHELL} /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL/missing --run makeinfo
+=======
 MAKEINFO = ${SHELL} /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL/missing --run makeinfo
+>>>>>>> upstream/master
 MPICC = 
 OBJEXT = o
 OPT_CFLAGS = -O3 -pipe -DNDEBUG   
@@ -210,16 +239,27 @@ PACKAGE_VERSION = 1.2.15
 PATH_SEPARATOR = :
 PKG_CONFIG = 
 RANLIB = ranlib
+<<<<<<< HEAD
+RPATH_FLAGS =  -Wl,--rpath -Wl,/home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/lib
+=======
 RPATH_FLAGS = 
+>>>>>>> upstream/master
 SET_MAKE = 
 SHELL = /bin/sh
 STRIP = strip
 VERSION = 1.2.15
 VPATH_DISTCLEANFILES = 
+<<<<<<< HEAD
+abs_bin_dir = /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/bin
+abs_include_dir = /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/include
+abs_lib_dir = /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/lib
+abs_source_dir = /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL
+=======
 abs_bin_dir = /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/bin
 abs_include_dir = /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/include
 abs_lib_dir = /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build/lib
 abs_source_dir = /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL
+>>>>>>> upstream/master
 ac_c_preproc_warn_flag = 
 ac_ct_AR = ar
 ac_ct_CC = cc
@@ -250,21 +290,33 @@ have_autoconf =
 have_automake = 
 have_svn = 
 have_svnversion = yes
+<<<<<<< HEAD
+host = x86_64-unknown-linux-gnu
+=======
 host = i386-apple-darwin18.6.0
+>>>>>>> upstream/master
 host_alias = 
 host_cpu = i386
 host_os = darwin18.6.0
 host_vendor = apple
 includedir = ${prefix}/include
 infodir = ${prefix}/info
+<<<<<<< HEAD
+install_sh = /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL/install-sh
+=======
 install_sh = /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/ThirdParty/ASL/install-sh
+>>>>>>> upstream/master
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localstatedir = ${prefix}/var
 mandir = ${prefix}/man
 mkdir_p = $(install_sh) -d
 oldincludedir = /usr/include
+<<<<<<< HEAD
+prefix = /home/rccguest8452/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build
+=======
 prefix = /Users/boraozaltun/Documents/GitHub/OSE2019/day1/SparseGridCode/pyipopt_midway/Ipopt-3.12.5/build
+>>>>>>> upstream/master
 program_transform_name = s,x,x,
 sbindir = ${exec_prefix}/sbin
 sharedstatedir = ${prefix}/com
